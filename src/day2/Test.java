@@ -7,6 +7,7 @@ public class Test {
 
 	public static void main(String[] args)
 	{
+		areaOfCircle();
 		areaOfRectangle();
 	}
 	
@@ -29,6 +30,23 @@ public class Test {
 	int area=length*width;
 	
 	System.out.println("Area of Rectangle is "+area);
+	}
+	
+	
+	public static void areaOfCircle()
+	{
+		
+//	int radius;
+//	length=10;			hard coded values
+//	width=5;
+	
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter Radius of Circle");
+	int radius=sc.nextInt();
+	
+	double area=Math.PI*radius*radius;
+	
+	System.out.println("Area of Circle is "+area);
 	}
 
 }
