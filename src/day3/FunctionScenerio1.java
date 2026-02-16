@@ -1,10 +1,8 @@
-//calculate area of circle
-package day2;
+package day3;
 
 import java.util.Scanner;
 
-public class Test {
-
+public class FunctionScenerio1 {
 	public static void main(String[] args)		//Very Rich man
 	{
 		areaOfRectangle();						//call
@@ -29,22 +27,4 @@ public class Test {
 	
 	System.out.println("Area of Rectangle is "+area);		//serving
 	}
-	
-	
-	public static void areaOfCircle()
-	{
-		
-//	int radius;
-//	length=10;			hard coded values
-//	width=5;
-	
-	Scanner sc=new Scanner(System.in);
-	System.out.println("Enter Radius of Circle");
-	int radius=sc.nextInt();
-	
-	double area=Math.PI*radius*radius;
-	
-	System.out.println("Area of Circle is "+area);
-	}
-
 }
