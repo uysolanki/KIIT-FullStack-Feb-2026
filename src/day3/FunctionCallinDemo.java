@@ -2,9 +2,9 @@ package day3;
 
 public class FunctionCallinDemo {
 
-	public static void main(String[] args) {
-		
-		System.out.println("I am in main");						//1
+	public static void main(String[] args) 
+	{
+		System.out.println("I am in main");	 //caller goes to sleep					//1
 		brazil();
 		System.out.println("I am finally back in main");        //5
 	}
