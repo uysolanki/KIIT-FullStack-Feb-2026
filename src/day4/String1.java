@@ -13,7 +13,7 @@ public class String1 {
 		int arr[]= {1,2,3};
 		System.out.println(name3); //['C','h','e','t','e','n']
 		System.out.println(Arrays.toString(arr)); //[1,2,3]
-		String s1=name1+" "+name2+" "+name4;
+		String s1=name1+" "+name2+" "+arr;
 		System.out.println(s1);
 
 	}
