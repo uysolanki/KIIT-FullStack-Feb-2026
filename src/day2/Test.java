@@ -5,13 +5,14 @@ import java.util.Scanner;
 
 public class Test {
 
+	static Test t1=new Test();
 	public static void main(String[] args)		//Very Rich man
 	{
-		areaOfRectangle();						//call
+		t1.areaOfRectangle();						//call
 	}
 	
 	
-	public static void areaOfRectangle()		//5 * hotel
+	public void areaOfRectangle()		//5 * hotel
 	{
 		
 	int length,width;	//mutter paneer

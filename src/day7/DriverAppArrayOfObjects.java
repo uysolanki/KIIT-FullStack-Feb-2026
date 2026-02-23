@@ -56,6 +56,31 @@ public class DriverAppArrayOfObjects {
 		}
 		
 		
+		
+//		double maxPercentage=0.0;
+//		String topper=null;
+//		for(i=0;i<batch.length;i++)
+//		{
+//			if(batch[i].getPer()> maxPercentage)
+//			{
+//				maxPercentage=batch[i].getPer();
+//				topper=batch[i].getName();
+//			}
+//		}
+//		
+//		System.out.println("Student with Maximum marks is "+topper);
+		
+		double maxPercentage=0.0;
+		Student topper=null;
+		for(i=0;i<batch.length;i++)
+		{
+			if(batch[i].getPer()> maxPercentage)
+			{
+				maxPercentage=batch[i].getPer();
+				topper=batch[i];
+			}
+		}
+		System.out.println("Student with Maximum marks is "+topper.getName() + "who has scored "+topper.getPer());
 
 	}
 
