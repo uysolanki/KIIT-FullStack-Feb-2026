@@ -2,9 +2,13 @@ package day9;
 
 public class StaticBlockDemo {
 	
+	static String collegName;
+	static String principalName;
+	
 	static
 	{
-		System.out.print("Virat ");
+		collegName="KIIT";
+		principalName="Mr Kumar";
 	}
 
 	public static void main(String[] args) 

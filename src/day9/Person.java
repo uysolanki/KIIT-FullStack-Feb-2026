@@ -1,4 +1,4 @@
-package day8;
+package day9;
 
 import java.util.Scanner;
 
@@ -8,7 +8,13 @@ public class Person {
 	protected String name;
 	protected int age;
 	
-	public Person() {}   //no args constructor of super class
+	public Person() 		//no args constructor of super class
+	{
+		adharNumber=1L;
+		name="Alice";
+		age=18;
+		
+	}   
 	public Person(long adharNumber, String name, int age) //all args construtor of sub class
 	{
 		this.adharNumber = adharNumber;
