@@ -42,7 +42,5 @@ public class Employee extends Person
 		System.out.println("Employee Number is "+ this.eno);
 		System.out.println("Employee Designation is "+this.desg);
 		System.out.println("Employee Salary is "+this.salary);	
-		
 	}
-	
 }

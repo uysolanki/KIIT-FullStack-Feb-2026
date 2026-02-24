@@ -3,8 +3,12 @@ package day9;
 public class SuperDriverApp {
 
 	public static void main(String[] args) {
-		Employee e1=new Employee();
-		e1.displayEmployee();
+		Person p1;		//ref
+		
+		p1=new Person();
+		
+		p1=new Employee();		//Upcasting P p = new C()  very widely used
+		
 
 	}
 
