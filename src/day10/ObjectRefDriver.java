@@ -13,6 +13,11 @@ public class ObjectRefDriver {
 		System.out.println("My Qualification is "+a1.qualification);
 					//qual is data -> data belong to the ref->ref is of Amitabh->hence Amitabhs qual
 
+		System.out.println(a1.getClass().getName());
 	}
 
 }
+
+
+//data belongs to the ref      - static method
+//method belongs to the object - non static method
