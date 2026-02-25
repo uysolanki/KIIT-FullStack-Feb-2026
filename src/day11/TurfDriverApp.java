@@ -37,5 +37,4 @@ public class TurfDriverApp {
 		System.out.println("Court Type "+turf.getTurfType());
 		System.out.println("Price "+turf.getTurfPrice());
 	}
-
 }
