@@ -10,14 +10,14 @@ public class Employee extends Person
 	
 	public Employee()		//no args constructor of sub class
 	{
-		super();
+		//super();
 		eno=101;
 		desg="Associate";
 		salary=1000.0;
 	} 
 	public Employee(long adharNumber, String name, int age,int eno, String desg, double salary) 	//all args construtor of sub class
 	{
-		super(adharNumber,name,age);
+		//super(adharNumber,name,age);
 		this.eno = eno;
 		this.desg = desg;
 		this.salary = salary;

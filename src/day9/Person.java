@@ -10,10 +10,9 @@ public class Person {
 	
 	public Person() 		//no args constructor of super class
 	{
-		adharNumber=1L;
-		name="Alice";
-		age=18;
-		
+		adharNumber=333L;
+		name="Chris";
+		age=41;
 	}   
 	public Person(long adharNumber, String name, int age) //all args construtor of sub class
 	{
