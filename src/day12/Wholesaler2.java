@@ -16,7 +16,7 @@ public static void main(String[] args) {
 	else
 		throw new LowQtyException("Please enter quantity greater than 500");
 	
-	return;
+		return;
 	}
 	catch(LowQtyException e1)
 	{
