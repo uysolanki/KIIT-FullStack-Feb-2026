@@ -19,7 +19,6 @@ public static void main(String[] args)		//no order and no duplicates
 	
 	System.out.println(names);
 	
-	
 	List<String> names1=new ArrayList();
 	names1.add("Alice");
 	names1.add("Ben");
