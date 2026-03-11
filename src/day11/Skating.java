@@ -13,4 +13,9 @@ public class Skating implements Turf
 		return "Skating Turf";
 	}
 
+	@Override
+	String getCompanyName() {
+		//return Turf.super.getCompanyName();
+		return "New Champion Turf";
+	}
 }

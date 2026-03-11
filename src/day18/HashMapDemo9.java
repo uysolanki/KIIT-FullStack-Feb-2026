@@ -12,9 +12,23 @@ import day16.Student;
 public class HashMapDemo9 {
 
 	public static void main(String[] args) {
-		String sentance="enot listen bac silent note tone abc bac cab";
+		String sentance="enot listen bac silent lisent note tone abc bac cab";
 		String str1="silent";
 		String str2="listen";
+		
+		char arr1[]=str1.toCharArray();	//['s'  'i'  'l'  'e'  'n'  't']
+		char arr2[]=str2.toCharArray();	//['l'  'i'  's'  't'  'e'  'n']
+		
+		Arrays.sort(arr1);  //['e'  'i'  'l'  'n'  's'  't']
+		Arrays.sort(arr2);  //['e'  'i'  'l'  'n'  's'  't']
+		
+		String str11=new String(arr1);	//"eilnst"  <-- key
+		String str22=new String(arr2);	//"eilnst"
+		
+		if(str11.equals(str22))
+			System.out.println("Anagrams");
+		else
+			System.out.println("Not Anagrams");
 	}
 
 }

@@ -13,7 +13,4 @@ public class RnoComparator implements Comparator<Student>
 			return -1;
 		else return 0;
 	}
-
-	
-
 }

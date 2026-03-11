@@ -30,7 +30,9 @@ public class TurfDriverApp {
 	}
 
 	private static void printBill(Customer customer, Turf turf) {
-		System.out.println("***ABC Turf***");
+//		System.out.println("***ABC Turf***");
+		System.out.println(turf.getCompanyName());
+		System.out.println("Owner Name "+Turf.getOwnerName());
 		System.out.println("Customer Name "+customer.getName());
 		System.out.println("Date of Play "+customer.getDateOfPlay());
 		System.out.println("Time of Play "+customer.getTimeOfPlay());
