@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    
+
+    <bean id="e1" class="com.kiit.model.Engine">
+    	<constructor-arg value="1000"></constructor-arg>
+    	<constructor-arg value="1"></constructor-arg>
+    	<constructor-arg value="Petrol"></constructor-arg>
+    	<constructor-arg value="Toyota"></constructor-arg>
+    </bean>
+	
+     <bean id="e2" class="com.kiit.model.Engine">
+    		<property name="engineCC">
+    			<value>2000</value>
+    		</property>
+    		
+    		<property name="engineMfg">
+    			<value>Honda</value>
+    		</property>
+    		
+    		<property name="engineType">
+    			<value>Diesel</value>
+    		</property>
+    		
+    		<property name="engineLiter">
+    			<value>2</value>
+    		</property>
+    </bean>
+    
+    <bean id="g1" class="com.kiit.model.Gear">
+    	<constructor-arg value="6"></constructor-arg>
+    	<constructor-arg value="Tata"></constructor-arg>
+    	<constructor-arg value="Automatic"></constructor-arg>
+    </bean>
+
+    <bean id="g2" class="com.kiit.model.Gear">
+    		<property name="gearLever">
+    			<value>8</value>
+    		</property>
+    		
+    		<property name="gearMfg">
+    			<value>Reliance</value>
+    		</property>
+    		
+    		<property name="gearType">
+    			<value>Manual</value>
+    		</property>
+    		
+    </bean>
+</beans>
