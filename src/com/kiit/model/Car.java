@@ -21,7 +21,7 @@ public class Car {
 	private Gear gear;
 	
 	@Autowired
-	private Tyre tyre;
+	private Tyre tyre;			//IoC container
 	
 	public Car() {}
 	public Car(String carModel, String carMfg, double carPrice, String carColor, Engine engine, Gear gear) {
